@@ -53,7 +53,7 @@ const StyledBgImg = styled(Box)(({ theme }) => ({
   background: `${
     theme.palette.mode === "light"
       ? `linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4))`
-      : `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7))`
+      : `linear-gradient(rgba(10, 10, 10, 0.6), rgba(10, 10, 10, 1))`
   }, url(${imgBg}) no-repeat`, //no-repeat center center
   backgroundSize: `cover`,
   animation: `kenburns-bottom-right 25s ease-out infinite alternate-reverse both`,

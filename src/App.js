@@ -30,10 +30,11 @@ export default function App() {
           </Route>
           <Route path="blog">
             <Route index element={<Blog />} />
-            <Route
+            {/* <Route
               path="boost-your-productivity-with-keyboard-automation-using-python"
               element={<AutomationPython />}
-            />
+            /> */}
+            <Route path=":id" element={<AutomationPython />} />
           </Route>
         </Routes>
         {/* <MyApp /> */}
